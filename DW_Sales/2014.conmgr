@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="2014"
+  DTS:DTSID="{2E3CB63F-E5F6-4777-9CF9-BA5D4C80AA4A}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Initial Catalog=EO_AdventureWorksDW2014;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-DW_Sales-{2E3CB63F-E5F6-4777-9CF9-BA5D4C80AA4A}Data Connection;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
